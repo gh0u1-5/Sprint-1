@@ -1,0 +1,42 @@
+================================================================================
+SECURITIES AND EXCHANGE BOARD OF INDIA (SEBI) CORPORATE DISCLOSURE FILING
+================================================================================
+Filing Ref ID: SEBI/NSE/2026/Q2-DISC-0912
+Date of Submission: September 01, 2026
+Applicable Regulation: SEBI (LODR) Regulations, 2015 - Regulation 30 & 33
+
+SECTION I: CORPORATE ANNOUNCEMENTS & DISCLOSURES
+
+1. RELIANCE INDUSTRIES LIMITED (Symbol: RELIANCE)
+   - Note on Expansion: Approval granted for an additional capital expenditure 
+     of INR 15,000 Crore towards expansion of green energy giga-factories in Jamnagar.
+   - Regulatory Compliance: Pursuant to SEBI Circular SEBI/HO/CFD/CMD1/CIR/P/2023/123, 
+     the company confirms no pending material litigations impacting Q2 operational income.
+   - Financial Note: Net operational debt reduced by 4.2% YoY. Debt-to-Equity 
+     ratio maintained within target threshold of 0.35x.
+
+2. TATA CONSULTANCY SERVICES LIMITED (Symbol: TCS)
+   - Strategic Contract Win: Multi-year partnership renewal valued at $450 Million 
+     with a leading European financial services group for Cloud Transformation & AI deployment.
+   - Financial Note: Operating margin targeted at 24.5% - 25.2% for FY27 despite wage 
+     hike headwinds. Dividend payout ratio remains aligned with 80%+ free cash flow distribution policy.
+
+3. INFOSYS LIMITED (Symbol: INFY)
+   - Share Buyback Update: Completion of mandatory disclosure under SEBI Buyback 
+     Regulations. Total shares extinguished: 12,500,000 at an aggregate consideration of INR 1,800 Crore.
+
+================================================================================
+SECTION II: STATUTORY RISK FACTORS (SEBI MANDATED)
+================================================================================
+Risk Factor 1 - Foreign Exchange Fluctuation:
+IT sector issuers (TCS, INFOSYS) maintain substantial revenue exposure to USD/EUR/GBP. 
+Unhedged volatility in cross-currency rates may adversely impact operating margins.
+
+Risk Factor 2 - Commodity Price Volatility & Refining Margins:
+Energy sector issuers (RELIANCE) remain exposed to global crude benchmark swings and Gross 
+Refining Margin (GRM) fluctuations governed by macroeconomic geopolitical dynamics.
+
+Risk Factor 3 - Regulatory & Compliance Changes:
+Modifications to Indian tax structures (MAT/GST), cross-border data sovereignty norms, 
+or foreign labor visa regulations pose ongoing operational compliance risks.
+================================================================================

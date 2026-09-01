@@ -1,0 +1,1352 @@
+[
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:00",
+    "price": 1278.78,
+    "volume": 625,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:00",
+    "price": 1130.06,
+    "volume": 417,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:00",
+    "price": 2390.51,
+    "volume": 133,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:05",
+    "price": 1279.21,
+    "volume": 241,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:05",
+    "price": 1129.4,
+    "volume": 410,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:05",
+    "price": 2389.95,
+    "volume": 329,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:10",
+    "price": 1279.53,
+    "volume": 55,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:10",
+    "price": 1128.7,
+    "volume": 461,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:10",
+    "price": 2390.04,
+    "volume": 209,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:15",
+    "price": 1279.22,
+    "volume": 385,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:15",
+    "price": 1129.87,
+    "volume": 176,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:15",
+    "price": 2391.55,
+    "volume": 105,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:20",
+    "price": 1277.88,
+    "volume": 38,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:20",
+    "price": 1129.53,
+    "volume": 233,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:20",
+    "price": 2389.99,
+    "volume": 99,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:25",
+    "price": 1278.19,
+    "volume": 516,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:25",
+    "price": 1130.3,
+    "volume": 274,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:25",
+    "price": 2389.73,
+    "volume": 370,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:30",
+    "price": 1278.03,
+    "volume": 566,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:30",
+    "price": 1130.96,
+    "volume": 338,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:30",
+    "price": 2389.56,
+    "volume": 121,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:35",
+    "price": 1276.71,
+    "volume": 748,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:35",
+    "price": 1130.07,
+    "volume": 120,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:35",
+    "price": 2388.53,
+    "volume": 158,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:40",
+    "price": 1275.3,
+    "volume": 265,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:40",
+    "price": 1130.54,
+    "volume": 303,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:40",
+    "price": 2387.27,
+    "volume": 128,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:45",
+    "price": 1276.79,
+    "volume": 186,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:45",
+    "price": 1130.85,
+    "volume": 56,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:45",
+    "price": 2386.09,
+    "volume": 392,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:50",
+    "price": 1276.04,
+    "volume": 261,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:50",
+    "price": 1129.84,
+    "volume": 69,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:50",
+    "price": 2387.3,
+    "volume": 308,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:55",
+    "price": 1275.34,
+    "volume": 184,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:55",
+    "price": 1128.75,
+    "volume": 211,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:15:55",
+    "price": 2386.1,
+    "volume": 35,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:00",
+    "price": 1276.72,
+    "volume": 420,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:00",
+    "price": 1128.27,
+    "volume": 263,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:00",
+    "price": 2387.24,
+    "volume": 107,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:05",
+    "price": 1276.17,
+    "volume": 440,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:05",
+    "price": 1129.06,
+    "volume": 435,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:05",
+    "price": 2386.86,
+    "volume": 11,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:10",
+    "price": 1275.56,
+    "volume": 374,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:10",
+    "price": 1128.39,
+    "volume": 302,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:10",
+    "price": 2388.65,
+    "volume": 140,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:15",
+    "price": 1276.82,
+    "volume": 663,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:15",
+    "price": 1128.03,
+    "volume": 14,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:15",
+    "price": 2387.17,
+    "volume": 151,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:20",
+    "price": 1277.64,
+    "volume": 142,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:20",
+    "price": 1127.61,
+    "volume": 209,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:20",
+    "price": 2388.12,
+    "volume": 177,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:25",
+    "price": 1278.94,
+    "volume": 50,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:25",
+    "price": 1127.3,
+    "volume": 424,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:25",
+    "price": 2386.74,
+    "volume": 240,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:30",
+    "price": 1279.75,
+    "volume": 553,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:30",
+    "price": 1128.41,
+    "volume": 471,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:30",
+    "price": 2385.03,
+    "volume": 326,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:35",
+    "price": 1281.05,
+    "volume": 515,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:35",
+    "price": 1128.02,
+    "volume": 146,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:35",
+    "price": 2386.43,
+    "volume": 60,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:40",
+    "price": 1281.14,
+    "volume": 476,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:40",
+    "price": 1128.94,
+    "volume": 477,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:40",
+    "price": 2386.5,
+    "volume": 111,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:45",
+    "price": 1281.59,
+    "volume": 684,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:45",
+    "price": 1128.87,
+    "volume": 125,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:45",
+    "price": 2386.59,
+    "volume": 197,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:50",
+    "price": 1280.15,
+    "volume": 172,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:50",
+    "price": 1127.85,
+    "volume": 98,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:50",
+    "price": 2387.84,
+    "volume": 322,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:55",
+    "price": 1281.22,
+    "volume": 604,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:55",
+    "price": 1126.84,
+    "volume": 98,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:16:55",
+    "price": 2388.44,
+    "volume": 237,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:00",
+    "price": 1281.76,
+    "volume": 497,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:00",
+    "price": 1125.69,
+    "volume": 196,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:00",
+    "price": 2390.01,
+    "volume": 288,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:05",
+    "price": 1282.6,
+    "volume": 148,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:05",
+    "price": 1126.0,
+    "volume": 118,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:05",
+    "price": 2389.7,
+    "volume": 159,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:10",
+    "price": 1282.82,
+    "volume": 99,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:10",
+    "price": 1126.81,
+    "volume": 225,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:10",
+    "price": 2391.43,
+    "volume": 250,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:15",
+    "price": 1281.66,
+    "volume": 55,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:15",
+    "price": 1126.72,
+    "volume": 199,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:15",
+    "price": 2391.94,
+    "volume": 11,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:20",
+    "price": 1282.1,
+    "volume": 114,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:20",
+    "price": 1127.55,
+    "volume": 114,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:20",
+    "price": 2393.53,
+    "volume": 368,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:25",
+    "price": 1282.65,
+    "volume": 558,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:25",
+    "price": 1128.47,
+    "volume": 218,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:25",
+    "price": 2393.16,
+    "volume": 12,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:30",
+    "price": 1282.26,
+    "volume": 626,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:30",
+    "price": 1128.43,
+    "volume": 80,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:30",
+    "price": 2391.27,
+    "volume": 314,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:35",
+    "price": 1283.32,
+    "volume": 97,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:35",
+    "price": 1127.26,
+    "volume": 411,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:35",
+    "price": 2390.05,
+    "volume": 378,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:40",
+    "price": 1284.05,
+    "volume": 627,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:40",
+    "price": 1126.39,
+    "volume": 226,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:40",
+    "price": 2390.25,
+    "volume": 54,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:45",
+    "price": 1285.47,
+    "volume": 106,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:45",
+    "price": 1126.32,
+    "volume": 484,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:45",
+    "price": 2390.12,
+    "volume": 280,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:50",
+    "price": 1285.37,
+    "volume": 133,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:50",
+    "price": 1125.63,
+    "volume": 359,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:50",
+    "price": 2391.49,
+    "volume": 340,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:55",
+    "price": 1285.54,
+    "volume": 71,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:55",
+    "price": 1124.52,
+    "volume": 44,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:17:55",
+    "price": 2392.78,
+    "volume": 72,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:00",
+    "price": 1285.37,
+    "volume": 409,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:00",
+    "price": 1123.7,
+    "volume": 32,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:00",
+    "price": 2390.86,
+    "volume": 278,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:05",
+    "price": 1284.27,
+    "volume": 316,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:05",
+    "price": 1124.68,
+    "volume": 143,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:05",
+    "price": 2392.6,
+    "volume": 88,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:10",
+    "price": 1283.4,
+    "volume": 639,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:10",
+    "price": 1124.18,
+    "volume": 167,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:10",
+    "price": 2392.44,
+    "volume": 245,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:15",
+    "price": 1283.22,
+    "volume": 285,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:15",
+    "price": 1124.65,
+    "volume": 280,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:15",
+    "price": 2392.38,
+    "volume": 50,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:20",
+    "price": 1284.62,
+    "volume": 167,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:20",
+    "price": 1123.87,
+    "volume": 327,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:20",
+    "price": 2390.48,
+    "volume": 328,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:25",
+    "price": 1285.53,
+    "volume": 740,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:25",
+    "price": 1123.35,
+    "volume": 292,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:25",
+    "price": 2390.82,
+    "volume": 98,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:30",
+    "price": 1285.78,
+    "volume": 639,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:30",
+    "price": 1123.37,
+    "volume": 271,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:30",
+    "price": 2392.74,
+    "volume": 109,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:35",
+    "price": 1286.09,
+    "volume": 197,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:35",
+    "price": 1123.42,
+    "volume": 61,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:35",
+    "price": 2394.45,
+    "volume": 234,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:40",
+    "price": 1286.98,
+    "volume": 388,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:40",
+    "price": 1123.68,
+    "volume": 125,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:40",
+    "price": 2395.37,
+    "volume": 291,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:45",
+    "price": 1286.39,
+    "volume": 740,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:45",
+    "price": 1124.37,
+    "volume": 315,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:45",
+    "price": 2395.05,
+    "volume": 185,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:50",
+    "price": 1286.8,
+    "volume": 167,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:50",
+    "price": 1123.54,
+    "volume": 184,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:50",
+    "price": 2394.58,
+    "volume": 24,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:55",
+    "price": 1287.07,
+    "volume": 53,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:55",
+    "price": 1122.71,
+    "volume": 421,
+    "side": "SELL",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:18:55",
+    "price": 2395.43,
+    "volume": 327,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:19:00",
+    "price": 1286.74,
+    "volume": 427,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:19:00",
+    "price": 1121.67,
+    "volume": 46,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:19:00",
+    "price": 2394.12,
+    "volume": 30,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "RELIANCE",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:19:05",
+    "price": 1286.18,
+    "volume": 366,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "INFOSYS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:19:05",
+    "price": 1122.49,
+    "volume": 70,
+    "side": "BUY",
+    "currency": "INR"
+  },
+  {
+    "symbol": "TCS",
+    "exchange": "NSE",
+    "timestamp": "2026-09-01 09:19:05",
+    "price": 2393.11,
+    "volume": 168,
+    "side": "BUY",
+    "currency": "INR"
+  }
+]
