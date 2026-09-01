@@ -136,7 +136,9 @@ if 'authenticated' not in st.session_state:
 if 'username' not in st.session_state:
     st.session_state['username'] = saved_username if saved_username else ""
 if 'page' not in st.session_state:
-    st.session_state['page'] = 'landing'
+    st.session_state['page'] = 'landing' if not st.session_state['authenticated'] else 'home'
+if 'selected_stock' not in st.session_state:
+    st.session_state['selected_stock'] = 'RELIANCE'
 if 'auth_tab' not in st.session_state:
     st.session_state['auth_tab'] = 0  # 0: Sign In, 1: Register
 if 'chat_messages' not in st.session_state:
@@ -151,7 +153,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed" if not st.session_state['authenticated'] else "expanded"
 )
 
-# Custom Styling Matching FinEX Image Design
+# Custom Styling Matching FinEX Design
 st.markdown("""
 <style>
     /* Dark grid background */
@@ -199,12 +201,19 @@ st.markdown("""
         margin-top: 4px;
     }
     
-    /* Center align container for hero */
     .hero-badge {
         text-align: center;
         color: #94A3B8;
         font-size: 12px;
         letter-spacing: 1.5px;
+        margin-bottom: 15px;
+    }
+
+    .stock-card {
+        background-color: #111622;
+        border: 1px solid #1E2638;
+        border-radius: 12px;
+        padding: 20px;
         margin-bottom: 15px;
     }
 </style>
@@ -222,12 +231,15 @@ def go_to_auth_register():
 def go_to_landing():
     st.session_state['page'] = 'landing'
 
+def go_to_stock_detail(stock_symbol):
+    st.session_state['selected_stock'] = stock_symbol
+    st.session_state['page'] = 'detail'
+
 # ==========================================
 # 2. LANDING & SIGN-IN INTERFACES
 # ==========================================
 if not st.session_state['authenticated']:
     
-    # Header Nav Bar
     nav_col1, nav_col2 = st.columns([8, 2])
     with nav_col1:
         st.markdown("<h3 style='margin:0; padding:0; color:#FFFFFF;'>📈 <b>FinEX</b></h3>", unsafe_allow_html=True)
@@ -257,7 +269,6 @@ if not st.session_state['authenticated']:
 
         st.markdown("<br><br><br>", unsafe_allow_html=True)
         
-        # Bottom Feature Cards (Filings Removed)
         card_col1, card_col2 = st.columns(2)
         with card_col1:
             st.markdown("""
@@ -286,7 +297,6 @@ if not st.session_state['authenticated']:
             st.markdown("<h2 style='text-align: center; color: #FFFFFF;'>Welcome to FinEX</h2>", unsafe_allow_html=True)
             st.markdown("<p style='text-align: center; color: #8B98A5;'>Sign in or create an account to access Multi-Agent Market Intelligence.</p>", unsafe_allow_html=True)
             
-            # Control active tab via Radio selection styled as tabs
             tab_choice = st.radio(
                 "", 
                 ["🔒 Sign In", "📝 Register Account"], 
@@ -305,6 +315,7 @@ if not st.session_state['authenticated']:
                     if authenticate_user(login_user, login_pass):
                         st.session_state['authenticated'] = True
                         st.session_state['username'] = login_user
+                        st.session_state['page'] = 'home'
                         save_ip_session(client_ip, login_user)
                         st.success(f"Welcome back, {login_user}!")
                         st.rerun()
@@ -333,20 +344,23 @@ if not st.session_state['authenticated']:
         st.stop()
 
 # ==========================================
-# 3. MAIN DASHBOARD & METRICS PIPELINE
+# 3. GLOBAL CONSTANTS & CURRENCY CONFIG
 # ==========================================
-
 start_time = time.time()
 
 NSE_STOCKS = [
     "RELIANCE", "TCS", "HDFCBANK", "INFY", "ICICIBANK", "BHARTIARTL", "SBIN",
     "LTIM", "ITC", "HINDUNILVR", "L&T", "AXISBANK", "KOTAKBANK", "BAJFINANCE",
-    "M&M", "MARUTI", "SUNPHARMA", "TATASTEEL", "NTPC", "TATAMOTORS", "POWERGRID",
-    "ADANIENT", "ADANIPORTS", "COALINDIA", "TITAN", "BAJAJ-AUTO", "ULTRACEMCO",
-    "ASIANPAINT", "HCLTECH", "ONGC", "JSWSTEEL", "GRASIM", "TECHM", "WIPRO",
-    "EICHERMOT", "DIVISLAB", "DRREDDY", "CIPLA", "BRITANNIA", "APOLLOHOSP",
-    "HEROMOTOCO", "TATACONSUM", "BPCL", "NESTLEIND", "BAJAJFINSV", "SBILIFE",
-    "HDFCLIFE", "BEL", "TRENT", "SHRIRAMFIN", "JIOFIN", "ZOMATO", "PAYTM"
+    "M&M", "MARUTI", "SUNPHARMA", "TATASTEEL", "NTPC", "TATAMOTORS"
+]
+
+FEATURED_STOCKS_DATA = [
+    {"symbol": "RELIANCE", "name": "Reliance Industries Ltd.", "price": "₹2,980.50", "change": "+1.85%", "rec": "BUY / ACCUMULATE", "badge": "green", "score": "88/100", "vol": "14.2%"},
+    {"symbol": "TCS", "name": "Tata Consultancy Services", "price": "₹4,120.10", "change": "+0.65%", "rec": "HOLD / CAUTIOUS", "badge": "orange", "score": "72/100", "vol": "12.8%"},
+    {"symbol": "HDFCBANK", "name": "HDFC Bank Limited", "price": "₹1,640.30", "change": "-0.45%", "rec": "BUY / ACCUMULATE", "badge": "green", "score": "84/100", "vol": "15.1%"},
+    {"symbol": "INFY", "name": "Infosys Limited", "price": "₹1,825.00", "change": "+2.10%", "rec": "STRONG BUY", "badge": "green", "score": "91/100", "vol": "18.4%"},
+    {"symbol": "ICICIBANK", "name": "ICICI Bank Limited", "price": "₹1,210.75", "change": "+1.15%", "rec": "BUY / ACCUMULATE", "badge": "green", "score": "86/100", "vol": "13.9%"},
+    {"symbol": "SBIN", "name": "State Bank of India", "price": "₹815.40", "change": "-1.20%", "rec": "HOLD / CAUTIOUS", "badge": "orange", "score": "68/100", "vol": "21.3%"},
 ]
 
 CURRENCY_CONFIG = {
@@ -360,7 +374,7 @@ CURRENCY_CONFIG = {
 st.sidebar.title(f"👤 User: {st.session_state['username']}")
 st.sidebar.caption(f"🔒 Session Bound to IP: `{client_ip}`")
 
-if st.sidebar.button("🚪 Log Out"):
+if st.sidebar.button("🚪 Log Out", use_container_width=True):
     remove_ip_session(client_ip)
     st.session_state['authenticated'] = False
     st.session_state['username'] = ""
@@ -376,21 +390,85 @@ risk_profile = st.sidebar.select_slider(
     value="Conservative"
 )
 
-st.sidebar.subheader("NSE Asset Selection")
-selected_dropdown = st.sidebar.selectbox("Select NSE Asset", NSE_STOCKS, index=0)
-custom_ticker = st.sidebar.text_input("OR Type Custom NSE Symbol", value="").strip().upper()
-
-stock_selected = custom_ticker if custom_ticker else selected_dropdown
-ticker_symbol = f"{stock_selected}.NS"
+if st.sidebar.button("🏠 Home Dashboard", use_container_width=True):
+    st.session_state['page'] = 'home'
+    st.rerun()
 
 st.sidebar.divider()
 st.sidebar.write("### System Status")
-st.sidebar.success(f"🌐 Data Stream: {ticker_symbol}")
+st.sidebar.success("🌐 Data Stream: Active")
 st.sidebar.success("💾 DB Telemetry: Enabled")
 st.sidebar.info("🤖 AI Chatbot: Active")
 
-st.title("📈 FinEX Multi-Agent Engine")
-st.caption("Converts live National Stock Exchange (NSE) market feeds into personalized guidance.")
+
+# ==========================================
+# 4. HOME PAGE (MULTIPLE STOCKS + RECOMMENDATIONS)
+# ==========================================
+if st.session_state['page'] == 'home':
+    h_col1, h_col2 = st.columns([7, 3])
+    with h_col1:
+        st.title("📈 FinEX Market Intelligence Hub")
+        st.caption(f"Welcome back **{st.session_state['username']}** | AI-driven market signals tailored to your **{risk_profile}** risk profile.")
+    with h_col2:
+        st.markdown("<br>", unsafe_allow_html=True)
+        search_selection = st.selectbox("Quick Jump to Stock", NSE_STOCKS, index=0)
+        if st.button("Open Analysis Workspace →", type="primary", use_container_width=True):
+            go_to_stock_detail(search_selection)
+            st.rerun()
+
+    st.divider()
+
+    st.subheader("🔥 Top AI-Scored Market Recommendations")
+    st.caption("AI multi-agent synthesis combines price momentum, SEBI disclosures, and sentiment metrics.")
+
+    grid_cols = st.columns(3)
+
+    for idx, item in enumerate(FEATURED_STOCKS_DATA):
+        col = grid_cols[idx % 3]
+        with col:
+            st.markdown(f"""
+            <div class="stock-card">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <h3 style="margin: 0; color: #FFFFFF;">{item['symbol']}</h3>
+                    <span style="color: {'#10B981' if '+' in item['change'] else '#EF4444'}; font-weight: bold;">{item['change']}</span>
+                </div>
+                <div style="color: #64748B; font-size: 13px; margin-bottom: 12px;">{item['name']}</div>
+                <div style="font-size: 24px; font-weight: bold; color: #E2E8F0; margin-bottom: 10px;">{item['price']}</div>
+                <div style="display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 5px;">
+                    <span style="color: #94A3B8;">Confidence Score:</span>
+                    <span style="color: #60A5FA; font-weight: bold;">{item['score']}</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 15px;">
+                    <span style="color: #94A3B8;">Ann. Volatility:</span>
+                    <span style="color: #CBD5E1;">{item['vol']}</span>
+                </div>
+                <div style="padding: 6px 10px; border-radius: 6px; background-color: rgba({'16, 185, 129' if item['badge']=='green' else '245, 158, 11'}, 0.15); border: 1px solid {'#10B981' if item['badge']=='green' else '#F59E0B'}; text-align: center; color: {'#34D399' if item['badge']=='green' else '#FBBF24'}; font-weight: bold; font-size: 13px; margin-bottom: 15px;">
+                    {item['rec']}
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            if st.button(f"Analyze {item['symbol']} →", key=f"btn_{item['symbol']}", use_container_width=True):
+                go_to_stock_detail(item['symbol'])
+                st.rerun()
+
+    st.stop()
+
+
+# ==========================================
+# 5. DETAILED STOCK ANALYSIS WORKSPACE
+# ==========================================
+top_c1, top_c2 = st.columns([8, 2])
+with top_c1:
+    stock_selected = st.session_state['selected_stock']
+    ticker_symbol = f"{stock_selected}.NS"
+    st.title(f"📊 {stock_selected} Analysis Workspace")
+    st.caption("Live multi-agent market feed and technical intelligence.")
+with top_c2:
+    st.markdown("<br>", unsafe_allow_html=True)
+    if st.button("← Back to Home Feed", use_container_width=True):
+        st.session_state['page'] = 'home'
+        st.rerun()
 
 def get_exchange_rate(target_currency_key):
     config = CURRENCY_CONFIG[target_currency_key]
@@ -455,11 +533,11 @@ m_col5.metric("Daily VaR (95% Conf)", f"-{daily_var_95}%")
 st.divider()
 
 # ==========================================
-# 4. INLINE AI CONVERSATION POPUP (EXPANDABLE)
+# 6. INLINE AI CONVERSATION POPUP (EXPANDABLE)
 # ==========================================
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY_HERE"
+GEMINI_API_KEY = "AQ.Ab8RN6KNYglGBAXRPBQKBPEiOJVFaiD2rSpa6MDBejA-1fL7yg"
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-3.6-flash")
 
 with st.expander("💬 Talk to AI Assistant", expanded=False):
     st.caption(f"Context: **{stock_selected}** | **{risk_profile} Profile**")
